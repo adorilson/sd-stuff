@@ -1,0 +1,81 @@
+
+RESENHA CRÍTICA DE ARTIGO
+
+- Identificação da obra: 
+DEY, Anind K, ABOWD, Gregory D. e SALBER, Daniel. A CONCEPTUAL FRAMEWORK AND A
+TOOLKIT FOR SUPPORTING THE RAPID PROTOTYPING OF CONTEXT-AWARE APPLICATIONS.
+
+- Apresente a obra: situe o leitor descrevendo em poucas linhas todo o conteúdo
+do texto a ser resenhado;
+
+Nesse artigos, os autores atacam três problemas do campo de pesquisa de sistemas ubiquos:
+a) a má definição da noção de contexto, b) a distância entre os modelos conceituais
+e métodos que suportam para o projeto de aplicações sensíveis aos contexto, e c)
+a inexistência de ferramentas para o desenvolvimento dessas aplicações. Vale lembrar
+que a obra é de 2001, e muita coisa evoluiu nesses mais de 10 anos. O artigo foi
+publicado na trilha especial sobre consciência de contexto do volume 16 do periódico
+Human-Computer Interaction (16(2-4)).
+
+- Descreva a estrutura: fale sobre a divisão em capítulos, em seções, sobre o foco
+narrativo ou até, de forma sutil, o número de páginas do texto completo;
+
+No capítulo 1 é feita uma introdução sobre os conceitos da computação com consciência
+do contexto como um todo, além de apresentar as dificuldades de capturar informações
+do contexto e demais seções do trabalho. O capítulo 2 são apresentados conceitos
+sobre o que é contexto (definido e categorizando) e como isso pode ser utilizado.
+O capítulo 3 são apresentados requisitos para um framework de suporte para contexto.
+Um framework conceitual, o Context Toolkit, é discutido em detalhes no capítulo 4,
+para que nos capítulos 5 até o 9 sejam explorados alguns conceitos com a descrição
+de várias aplicações desenvolvidas com o framework. No capítulo 10 alguns trabalhos
+relacionados são discutidos, e no capítulo 11 são demostrados como os desafios
+área podem ser explorados com o framework conceitual e o Context Toolkit.
+
+- Descreva o conteúdo: Aqui sim, utilize de 3 a 5 parágrafos para resumir claramente
+o texto resenhado;
+
+No capítulo 1, é feita uma introdução sobre o assunto do artigo, onde os autores
+definem contexto como "qualquer informação que caracteriza uma situação relacionada
+à interação entre usuários, aplicações e o ambiente externo". E para ilustrar uma
+situação de uso real da computação ambigua é descrito um cenário de uma aplicação
+assistente de conferências, que voltará a ser discutido em detalhes no capítulo 8.
+Apresentam também diversas dificuldades relacionadas ao desenvolvimento, distribuição,
+modificação e reusabilidade dessas aplicações, mas que não há métodos ou ferramentas
+para auxiliar essas tarefas e, além disso, essas aplicações precisam ser leves,
+portáveis e interoperáveis entre um grande número de plataformas,
+
+No capítulo 2 são discutidas as definições de contexto de outros autores, apresentando
+suas falhas como enumeração de exemplos de informações de contexto e categorização.
+Os autores consideram que as definições por exemplo são difíceis de serem aplicadas.
+Quando surge um potencial novo tipo de informação de contexto, não está claro como
+a definição pode ajudar ou não a decidir se a informações é de contexto ou não,
+por exemplo. Contuto, a partir dessas definições anteriores e considerando o que
+eles pensam sobre contexto, os autores fazem a sua definição de contexto. Aqui, 
+eles também apontam lugares, pessoas e coisas como as entidades mais relevantes e
+categorizam a informação de contexto em quatro classes: identicação, localização,
+estado (ou atividade) e tempo. A razão para essa categorização é que a partir dessas
+informações outras informações podem ser inferidas, o que leva a uma melhor avaliação
+de uma situação. Também classificam as funções que uma aplicação pode executar:
+a) apresentação de informação e serviços, onde informações ou opções de ação são
+apresentadas para o usuário de acordo com o contexto; b) execução automática de
+um serviço, que disparam algum comando ou reconfiguram o sistema de acordo com as
+mudanças do contexto; e c) anexar informação de contexto para uso posterior.
+
+
+
+- Analise de forma crítica: Nessa parte, e apenas nessa parte, você vai dar sua
+opinião. Argumente baseando-se em teorias de outros autores, fazendo comparações
+ou até mesmo utilizando-se de explicações que foram dadas em aula. É difícil
+encontrarmos resenhas que utilizam mais de 3 parágrafos para isso, porém não há
+um limite estabelecido. Dê asas ao seu senso crítico.
+
+- Recomende a obra: Você já leu, já resumiu e já deu sua opinião, agora é hora de
+analisar para quem o texto realmente é útil (se for útil para alguém). Utilize
+elementos sociais ou pedagógicos, baseie-se na idade, na escolaridade, na renda etc.
+
+- Identifique o autor: Cuidado! Aqui você fala quem é o autor da obra que foi
+resenhada e não do autor da resenha (no caso, você). Fale brevemente da vida e de
+algumas outras obras do escritor ou pesquisador.
+
+- Assine e identifique-se: Agora sim. No último parágrafo você escreve seu nome e
+fala algo como “Acadêmico do Curso de Letras da Universidade de Caxias do Sul (UCS)”
+
