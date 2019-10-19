@@ -33,7 +33,7 @@ relacionados são discutidos, e no capítulo 11 são demostrados como os desafio
 - Descreva o conteúdo: Aqui sim, utilize de 3 a 5 parágrafos para resumir claramente
 o texto resenhado;
 
-No capítulo 1, é feita uma introdução sobre o assunto do artigo, onde os autores
+Na seção 1, é feita uma introdução sobre o assunto do artigo, onde os autores
 definem contexto como "qualquer informação que caracteriza uma situação relacionada
 à interação entre usuários, aplicações e o ambiente externo". E para ilustrar uma
 situação de uso real da computação ambigua é descrito um cenário de uma aplicação
@@ -43,7 +43,7 @@ modificação e reusabilidade dessas aplicações, mas que não há métodos ou 
 para auxiliar essas tarefas e, além disso, essas aplicações precisam ser leves,
 portáveis e interoperáveis entre um grande número de plataformas,
 
-No capítulo 2 são discutidas as definições de contexto de outros autores, apresentando
+Na seção 2 são discutidas as definições de contexto de outros autores, apresentando
 suas falhas como enumeração de exemplos de informações de contexto e categorização.
 Os autores consideram que as definições por exemplo são difíceis de serem aplicadas.
 Quando surge um potencial novo tipo de informação de contexto, não está claro como
@@ -59,6 +59,56 @@ a) apresentação de informação e serviços, onde informações ou opções de
 apresentadas para o usuário de acordo com o contexto; b) execução automática de
 um serviço, que disparam algum comando ou reconfiguram o sistema de acordo com as
 mudanças do contexto; e c) anexar informação de contexto para uso posterior.
+
+Estabelecida a definição de contexto, a seção 3 discute os requisitos que um 
+framework deve atender para lidar com contexto. Os requisitos apontados são: a)
+separação de responsabilidades; b) interpretação de contexto; c) comunicações
+transparentes e distribuídas; d) disponibilidade constante da aquisição de contexto;
+e) armazenamento do contexto; e f) discoberta de recursos. Após o detalhamento
+desses requisitos, é descrito um framework conceitual que atende a esses requisitos.
+Inspirado nas aplicações com interfaces gráficas, onde a entrada e saída dos dados
+é separada do processamento, através dos widgets, é proposto a noção de "context 
+widget". Context widget é um componente de software que permitem às aplicações
+acessarem informaçães do ambiente em que estão sendo executadas, sem que as
+aplicações ao menos saibam como a captura dessa informação é feita. Os context
+widgets abstraem informações do contexto, fazendo com que sejas necessários outros
+dois tipos de componentes: interpretadores e agregadores. Interpretadores transformam
+informações entre diferentes níveis de abstração, por exemplo localização pode ser
+coordenadas geográficas (em uma abstração de mais baixo nível) ou nome de uma rua
+(em um abstração de mais alto nível). Agregadores irão coletar diversos tipos de
+informações que são relacionadas e disponibilizá-las em um único repositório. Além
+de coletar, interpretar e agregar essa informações é necessário a tomada de alguma
+ação, segundo algum critério. Para executar essas ações, existem um outro tipo de
+componente: os serviços. Por o fim, também serão necessários os descobridores,
+componentes responsáveis por gerenciar o registro dos demais componentes do framework.
+No fim dessa seção também é apresentado como esse framework conceitual pode ser
+utilizando, a partir do exemplo de uma aplicação de guia turístico.
+
+Um ponto extremamente positivo desse trabalho é que, além da especificação de um
+framework conceitual, os autores também criaram o que podemos chamar de implementação
+de referência, o Context Toolkit. Essa implementação é descrita em detalhes na
+seção 4. Da seção 5 até a seção 8 são apresentadas diversas aplicações criadas
+nesse framework, desde de aplicações simples, onde o objetivo era apenas mostrar
+a reutilização de componentes, até aplicações complexas, como a citada na introdução
+do trabalho. A seção 9 apenas faz um resumo das aplicações.
+
+A seção 10 apresenta outros frameworks e partes de middlewares desenvolvidos para
+para suportar diferentes aspectos da computação ubiqua. No geral, essas ferramentas
+não atacam todos os problemas apresentados pelos autores em termos de aquisição,
+captura do contexto e tomada de ações. Mas foram úteis para os autores aprenderem
+com eles e criarem seu próprio framework. Para finalizar, na seção 11 os autores
+indicam como pesquisadores da areas de computação ubiqua podem utilizar o Context
+Toolkit como ferramenta de trabalho.
+
+
+Adorilson Bezerra
+Aluno de pos-graduação DIMAP/UFRN
+
+
+
+
+
+
 
 
 
